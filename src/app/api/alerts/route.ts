@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { sendJobAlert } from "@/lib/email"; // Nodemailer utility
+import { sendJobAlert } from "@/lib/email";
 
 // ✅ Proper type banaya
 type Alert = {
