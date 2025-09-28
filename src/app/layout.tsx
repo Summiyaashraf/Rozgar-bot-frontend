@@ -23,6 +23,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Rozgar Bot",
   description: "Job updates made simple",
+  icons: {
+    icon: "/logo.png", 
+  },
 };
 
 export default function RootLayout({
